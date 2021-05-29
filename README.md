@@ -1,2 +1,0 @@
-# Parsec
-Parsec-website
