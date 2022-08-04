@@ -31,6 +31,24 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </head>
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
@@ -65,66 +83,24 @@
 Parsec is a student-run astronomy club at IISER Thiruvananthapuram. The club aims to promote interest in understanding the vast universe around.</p>
                           <!--      <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
                             -->
-</div>
 
-                             <div class="slideshow-container">
 
-                                    <!-- Full-width images with number and caption text -->
 
-                                    <div class="mySlides fade">
-                                        <div class="numbertext">1 / 2</div>
-                                        <img src="assets\img\M22_Mugilan.jpg" style="width:100%">
-                                        <div class="text">Caption Two</div>
-                                    </div>
 
-                                    <div class="mySlides fade">
-                                        <div class="numbertext">2 / 2</div>
-                                        <img src="assets\img\Milky Way_ PC_ Siraj (B21).png" style="width:100%">
-                                        <div class="text">Caption Three</div>
-                                    </div>
 
-                                    <!-- Next and previous buttons -->
-                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                                </div>
-                                <br>
 
-                                <!-- The dots/circles -->
-                                <div style="text-align:center">
-                                    <span class="dot" onclick="currentSlide(1)"></span>
-                                    <span class="dot" onclick="currentSlide(2)"></span>
-                                </div>
-                              </div>
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
+
+
+
+
+
+
+
+
+
                                 </div>
                             </div>
                         </div>
@@ -313,17 +289,16 @@ function showSlides(n) {
                     <div class="row gx-5">
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
+                                <img class="card-img-top" src="assets/img/Astrobio_talk_1.png" alt="Poster" />
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">Astrobiology</div>
-                                    <a class="text-decoration-none link-dark stretched-link" href="https://youtu.be/nAxrg-Zds2w"><h5 class="card-title mb-3">Habitable planets in the Solar System and Beyond
+                                    <a class="text-decoration-none link-dark stretched-link" href="https://youtu.be/nAxrg-Zds2w" target="_blank"><h5 class="card-title mb-3">Habitable planets in the Solar System and Beyond
 </h5></a>
                                     <p class="card-text mb-0">Dr. Dimitra Atri is an astrophysicist interested in exoplanetary atmospheres, star-planet interactions, Mars, planetary habitability, and space weather.</p>
                                 </div>
                                 <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                     <div class="d-flex align-items-end justify-content-between">
                                         <div class="d-flex align-items-center">
-                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
                                             <div class="small">
                                                 <div class="fw-bold">Dr. Dimitra Atri, NYUAD</div>
                                                 <div class="text-muted">Jan 28, 2021 </div>
@@ -335,19 +310,18 @@ function showSlides(n) {
                         </div>
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" src="https://dummyimage.com/600x350/adb5bd/495057" alt="..." />
+                                <img class="card-img-top" src="assets/img/jwst.jpg" alt="JWST" />
                                 <div class="card-body p-4">
-                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">Media</div>
-                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Another blog post title</h5></a>
-                                    <p class="card-text mb-0">This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">JWST</div>
+                                    <a class="text-decoration-none link-dark stretched-link" href="https://youtu.be/UhxL9lTBSAg" target="_blank"><h5 class="card-title mb-3">James Webb Space Telescope</h5></a>
+                                    <p class="card-text mb-0">More than 25 years in the making, at the expense of around $10 Billion, the James Webb Space Telescope (JWST) is the largest instrument ever to be flown. The optics of JWST consists of a 6-meter segmented primary mirror, making observations in the infrared region with its four different instruments. This talk details the JWST optics and the back-end instruments. A glimpse of the scientific novelties that this telescope will address will also be discussed. </p>
                                 </div>
                                 <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                     <div class="d-flex align-items-end justify-content-between">
                                         <div class="d-flex align-items-center">
-                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
                                             <div class="small">
-                                                <div class="fw-bold">Josiah Barclay</div>
-                                                <div class="text-muted">March 23, 2021 &middot; 4 min read</div>
+                                                <div class="fw-bold">Dr. Vineeth Valsan, Christ University</div>
+                                                <div class="text-muted">24 Dec 2021</div>
                                             </div>
                                         </div>
                                     </div>
@@ -356,19 +330,18 @@ function showSlides(n) {
                         </div>
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" src="https://dummyimage.com/600x350/6c757d/343a40" alt="..." />
+                                <img class="card-img-top" src="assets/img/Astro_talk_2.png" alt="Poster" />
                                 <div class="card-body p-4">
                                     <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">The last blog post title is a little bit longer than the others</h5></a>
-                                    <p class="card-text mb-0">Some more quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a class="text-decoration-none link-dark stretched-link" href="https://youtu.be/Ws9bsuBm0N8" target="_blank"><h5 class="card-title mb-3">The Large-scale Structure of the Universe</h5></a>
+                                    <p class="card-text mb-0">Dr. Anand Narayanan obtained his Master's Degree and Ph.D. from the Department of Astronomy and Astrophysics, Pennsylvania State University. His research involves studying diffuse gas in the intergalactic medium and outflow from active galactic nuclei with the help of spectroscopic observations. He had also given a talk on the cosmic perspective as a part of the TEDx talk series.</p>
                                 </div>
                                 <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                     <div class="d-flex align-items-end justify-content-between">
                                         <div class="d-flex align-items-center">
-                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
                                             <div class="small">
-                                                <div class="fw-bold">Evelyn Martinez</div>
-                                                <div class="text-muted">April 2, 2021 &middot; 10 min read</div>
+                                                <div class="fw-bold">Dr. Anand Narayanan</div>
+                                                <div class="text-muted">Dec 3, 2020</div>
                                             </div>
                                         </div>
                                     </div>
@@ -394,19 +367,19 @@ Kerala, India</br>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-6 mb-6 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/parseciisertvm" target="_blank"><i class="fab fa-fw fa-facebook-f"></i>
                         <svg class="svg-inline--fa fa-facebook-f fa-w-10 fa-fw" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/parseciisertvm/"><i class="fab fa-fw fa-twitter"></i>
                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
   <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
 </svg>
                             </a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.youtube.com/c/parseciisertvm" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i>
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
   <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
 </svg>
                         </a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i>
+                        <a class="btn btn-outline-light btn-social mx-1" href="mailto: parseciisertvm@gmail.com" target="_blank"><i class="fab fa-fw fa-dribbble"></i>
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
   <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
 </svg>
