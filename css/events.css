@@ -11797,6 +11797,7 @@ body {
 }
 .full .content img {
   left: 50%;
+  background-size: 100% auto;
   transform: translate3d(0, 0, 0);
   animation: zoomin 1s ease;
   max-width: 100%;
